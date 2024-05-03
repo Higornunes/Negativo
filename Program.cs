@@ -10,3 +10,10 @@ if (numero < 0)
     Console.WriteLine("Você digitou um número negativo.");
     Console.ResetColor();
 }
+if (numero > 0)
+{
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine("Você digitou um número Positivo.");
+    Console.ResetColor();
+
+}    
